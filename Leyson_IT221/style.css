@@ -1,0 +1,48 @@
+a:link {
+	color: #4F5D75;
+	background-color: transparent;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+}
+
+a:visited {
+	color: #4F5D75;
+	background-color: transparent;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+}
+
+a:hover {
+	color: coral;
+	background-color: transparent;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+}
+
+body {
+  	background-image: url('bg.jpg');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;  
+  	background-size: cover;
+}
+
+img#prof {
+	width: 300px;
+	box-shadow: 0 0 25px #BFC0C0;
+}
+
+.skills {
+  	display: flex;
+}
+
+.skills > div {
+  	width:300px;
+  	margin-left: 35px;
+  	margin-right: 35px;
+  	background-color: white;
+  	box-shadow: 0 0 25px #BFC0C0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
